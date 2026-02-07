@@ -64,11 +64,11 @@ class LexerTestGrade {
 
 	@Test
 	void testingTokens() throws IOException {
-		File file = new File("src/main/resources/input.txt");
+		File file = new File("src/test/resources/input.txt");
 		Lexer lexer = new Lexer(file);
 		lexer.run();
 		List<Token> tokens = lexer.getTokens();
-		List<String[]> expectedRows = loadResultsCSV("src/main/resources/output.csv");
+		List<String[]> expectedRows = loadResultsCSV("src/test/resources/output.csv");
 		int comparisons = Math.min(tokens.size(), expectedRows.size());
 		int errors = 0;
 		for (int i = 0; i < comparisons; i++) {

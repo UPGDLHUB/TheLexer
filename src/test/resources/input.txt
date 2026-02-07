@@ -171,3 +171,16 @@ while (i < limit) {
 }
 print("sum="); 
 print(sum);
+
+// ------------------------
+// Next Level 
+// ------------------------
+12e-5 / 5.0 * (99 + 011) + 0.5e17 * 5.0e+7 - .5 + $pesos / $30
+if ( (true&&false) || !true && a<=b && c>=d) {i++;x+=10;w/=7;
+(x == 1)?"hola":mundo;
+switch (a) {
+case 1: print(x); break;
+caso 2: -k--; break;
+default: end;
+}
+

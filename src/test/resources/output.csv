@@ -150,9 +150,9 @@ OPERATOR,   --
 IDENTIFIER, fifth
 IDENTIFIER, set
 ERROR,      1.2e-
-OPERATOR    --
-INTEGER     3
-OPERATOR    ++
+OPERATOR,   --
+INTEGER,    3
+OPERATOR,   ++
 IDENTIFIER, $50
 KEYWORD,    float
 IDENTIFIER, ________________

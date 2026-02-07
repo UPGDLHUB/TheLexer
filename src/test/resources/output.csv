@@ -169,20 +169,21 @@ CHARACTER,  'a'
 CHARACTER,  '\''
 IDENTIFIER, b
 ERROR,      ^
-CHARACTER,  '\'b'
+ERROR,      '\'b'
 OPERATOR,   --
-IDENTIFIER,sixth
-IDENTIFIER,set
-STRING,\\\\\\\\\\a
-STRING,Hello
-STRING,world
-ERROR,abc^Hello
-ERROR,''’
-ERROR,\'x’
-ERROR,’\a'
-ERROR,’\w’
-ERROR,\\\
-KEYWORD,int
+IDENTIFIER, sixth
+IDENTIFIER, set
+STRING,     "\\\\\\\\\\a"
+STRING,     "Hello"
+STRING,     "world"
+IDENTIFIER, abc
+STRING      "Hello"
+ERROR,      ''’
+ERROR,      '\x’
+ERROR,      ’\a'
+ERROR,      ’\w’
+STRING,     "\\\"
+KEYWORD,    int
 IDENTIFIER,x
 OPERATOR,=
 INTEGER,10

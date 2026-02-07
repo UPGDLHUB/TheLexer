@@ -162,7 +162,7 @@ OPERATOR,=
 ERROR,000000.1
 DELIMITER,;
 ERROR,'''a'
-ERROR,\'\'\'a\'   /* if your lexer groups triple quotes differently, keep as ERROR token */
+ERROR, 
 CHAR_LITERAL,\'
 IDENTIFIER,b
 ERROR,\'b'

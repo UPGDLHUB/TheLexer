@@ -2,10 +2,16 @@ int x = 0b00A,0b01Z 0b10 0b11;3-0b111 end
 1111 end
 0b1111 hello world eND.
 
+// ------------------------
+// Conjunto dos
+// ------------------------
 -- second set
 hello;world cse340 up 2013/05/31 // end
 boolean $xx= ((((((((23WE + 44 - 3 / 2 % 45 <=17) > 0xfffff.34.45;
 
+// ------------------------
+// Conjunto tres
+// ------------------------
 -- third set
 int x = 5; 
 float y = "hello; 
@@ -18,6 +24,9 @@ int me = 99999000001111222000000111111222223443483045830948;
 while { x != 9} ();
 int {x} = 10; 
 
+// ------------------------
+// Conjunto cuatro
+// ------------------------
 -- fourth set
 000000005
 000000009
@@ -27,7 +36,9 @@ int {x} = 10;
 0x0000002
 0123456789
 
-
+// ------------------------
+// Conjunto cinco
+// ------------------------
 -- fifth set
 1.2e---3++ 
 $50
@@ -37,6 +48,9 @@ double x = 000000.1;    
 '\''b'
 '\'b'
 
+// ------------------------
+// Conjunto seis
+// ------------------------
 -- sixth set
 " \\\\\\\\\\a"
 "Hello""world"
@@ -46,10 +60,114 @@ abc"Hello"
 ’\a'
 ’\w’
 "\\\"
-
 // this is a comment and everything here 309475093 ++#$%#$^ #$%# $%# should be ignored !!
 /*
  * also ignore this
  * and this
  * and all this! @5 => C#
 */
+
+// ------------------------
+// Simple tokens
+// ------------------------
+int x=10;
+int y = 20 ;
+int sum = x + y;
+print(sum);
+
+// ------------------------
+// Keywords and Identifiers
+// ------------------------
+int _tmp = 1;
+int tmp2 = _tmp + 3;
+boolean is_ok = true;
+boolean isOK2 = false;
+print(_tmp);
+
+// ------------------------
+// Control flow
+// ------------------------
+int a = 5;
+int b = 7;
+if (a < b && b != 0) {
+    a = a + 1;
+} else {
+    a = a - 1;
+}
+while (a <= 10) {
+    a = a + 2;
+}
+
+// ------------------------
+// Numbers
+// ------------------------
+int dec = 123;
+int oct1 = 0123;
+int oct2 = 0007;
+int hex1 = 0x1F;
+int hex2 = 0X0000;
+float f1 = 0.5;
+float f2 = 10.0;
+float f3 = 123.456;
+int badOct1 = 089;      // invalid octal
+int badHex1 = 0x;       // missing digits
+int badHex2 = 0xG1;     // invalid hex digit
+float badFloat1 = 01.2; //invalid octal cannot have decimal point
+
+// ------------------------
+// Operators
+// ------------------------
+int x = 10;
+x++;
+x--;
+x = x + 1;
+x = x * 2;
+x = x / 3;
+x = x % 2;
+if (x == 10 || x != 11) { print(x); }
+if (x >= 0 && x <= 100) { print(x); }
+x = 1---2;
+
+// ------------------------
+// Strings and chars
+// ------------------------
+char c1 = 'a';
+char c2 = '\n';
+char c3 = '\'';
+string s1 = "hello";
+string s2 = "line1\nline2";
+string s3 = "quote: \" ok \"";
+print(s1);
+
+// ------------------------
+// Delimiters
+// ------------------------
+int abc123 = 1;
+int abc = 2;
+int abc123def = 3;   
+print(abc123def);
+print(abc123);
+print(abc);
+
+// ------------------------
+// Whitespace stress
+// ------------------------
+int     x	=		5;
+print(    x     );
+
+// ------------------------
+// mini program
+// ------------------------
+int i = 0;
+int limit = 10;
+int sum = 0x0A + 012;  // hex + oct
+while (i < limit) {
+    if (i % 2 == 0) {
+        sum = sum + i;
+    } else {
+        sum = sum - 1;
+    }
+    i = i + 1;
+}
+print("sum="); 
+print(sum);

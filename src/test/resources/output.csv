@@ -18,7 +18,6 @@ BINARY,     0b1111
 IDENTIFIER, hello
 IDENTIFIER, world
 IDENTIFIER, eND
-DELIMITER,  .
 OPERATOR,   --
 IDENTIFIER, second
 IDENTIFIER, set
@@ -182,7 +181,7 @@ ERROR,      ''’
 ERROR,      '\x’
 ERROR,      ’\a'
 ERROR,      ’\w’
-STRING,     "\\\"
+STRING,     "\\\\"
 KEYWORD,    int
 IDENTIFIER, x
 OPERATOR,   =

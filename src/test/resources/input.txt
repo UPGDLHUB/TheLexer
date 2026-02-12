@@ -59,7 +59,7 @@ abc"Hello"
 '\x’
 ’\a'
 ’\w’
-"\\\"
+"\\\\"
 // this is a comment and everything here 309475093 ++#$%#$^ #$%# $%# should be ignored !!
 /*
  * also ignore this

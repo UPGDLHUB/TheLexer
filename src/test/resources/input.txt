@@ -1,6 +1,6 @@
 int x = 0b00A,0b01Z 0b10 0b11;3-0b111 end
 1111 end
-0b1111 hello world eND.
+0b1111 hello world eND
 
 // ------------------------
 // Conjunto dos

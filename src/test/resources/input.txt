@@ -73,7 +73,7 @@ abc"Hello"
 int x=10;
 int y = 20 ;
 int sum = x + y;
-print(sum);
+printer(sum);
 
 // ------------------------
 // Keywords and Identifiers
@@ -82,7 +82,7 @@ int _tmp = 1;
 int tmp2 = _tmp + 3;
 boolean is_ok = true;
 boolean isOK2 = false;
-print(_tmp);
+printer(_tmp);
 
 // ------------------------
 // Control flow
@@ -124,8 +124,8 @@ x = x + 1;
 x = x * 2;
 x = x / 3;
 x = x % 2;
-if (x == 10 || x != 11) { print(x); }
-if (x >= 0 && x <= 100) { print(x); }
+if (x == 10 || x != 11) { printer(x); }
+if (x >= 0 && x <= 100) { printer(x); }
 x = 1---2;
 
 // ------------------------
@@ -137,7 +137,7 @@ char c3 = '\'';
 string s1 = "hello";
 string s2 = "line1\nline2";
 string s3 = "quote: \" ok \"";
-print(s1);
+printer(s1);
 
 // ------------------------
 // Delimiters
@@ -145,15 +145,15 @@ print(s1);
 int abc123 = 1;
 int abc = 2;
 int abc123def = 3;   
-print(abc123def);
-print(abc123);
-print(abc);
+printer(abc123def);
+printer(abc123);
+printer(abc);
 
 // ------------------------
 // Whitespace stress
 // ------------------------
 int     x	=		5;
-print(    x     );
+printer(    x     );
 
 // ------------------------
 // mini program
@@ -169,8 +169,8 @@ while (i < limit) {
     }
     i = i + 1;
 }
-print("sum="); 
-print(sum);
+printer("sum="); 
+printer(sum);
 
 // ------------------------
 // Next Level 
@@ -179,7 +179,7 @@ print(sum);
 if ( (true&&false) || !true && a<=b && c>=d) {i++;x+=10;w/=7;
 (x == 1)?"hola":mundo;
 switch (a) {
-case 1: print(x); break;
+case 1: printer(x); break;
 caso 2: -k--; break;
 default: end;
 }

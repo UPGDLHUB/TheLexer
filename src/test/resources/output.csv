@@ -433,17 +433,17 @@ IDENTIFIER, c3
 OPERATOR,   =
 CHARACTER,  '\''
 DELIMITER,  ;
-KEYWORD,    string
+IDENTIFIER, stringToBe
 IDENTIFIER, s1
 OPERATOR,   =
 STRING,     "hello"
 DELIMITER,  ;
-KEYWORD,    string
+IDENTIFIER, stringToBe
 IDENTIFIER, s2
 OPERATOR,   =
 STRING,     "line1\nline2"
 DELIMITER,  ;
-KEYWORD,    string
+IDENTIFIER, stringToBe
 IDENTIFIER, s3
 OPERATOR,   =
 STRING,     ^quote: \^ ok \^^

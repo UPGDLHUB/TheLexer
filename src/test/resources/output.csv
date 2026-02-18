@@ -69,7 +69,7 @@ KEYWORD,    float
 IDENTIFIER, y
 OPERATOR,   =
 ERROR,      ^hello;
-IDENTIFIER, String
+IDENTIFIER, StringString
 ERROR,      @z
 OPERATOR,   =
 STRING,     ^9.5^

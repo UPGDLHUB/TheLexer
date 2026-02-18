@@ -134,9 +134,9 @@ x = 1---2;
 char c1 = 'a';
 char c2 = '\n';
 char c3 = '\'';
-string s1 = "hello";
-string s2 = "line1\nline2";
-string s3 = "quote: \" ok \"";
+stringToBe s1 = "hello";
+stringToBe s2 = "line1\nline2";
+stringToBe s3 = "quote: \" ok \"";
 printer(s1);
 
 // ------------------------

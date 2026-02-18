@@ -15,7 +15,7 @@ boolean $xx= ((((((((23WE + 44 - 3 / 2 % 45 <=17) > 0xfffff.34.45;
 -- third set
 int x = 5; 
 float y = "hello; 
-String @z = "9.5";
+StringString @z = "9.5";
 int x = cse340;
 if ( x > 14) while (5 == 5) if (int a) a = 1; 
 x = x; for ( ; ; );
